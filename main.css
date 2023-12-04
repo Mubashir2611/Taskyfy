@@ -16,7 +16,7 @@ button {
 }
 
 body {
-	background-color: #242948;
+	background: linear-gradient(27deg, rgb(28, 65, 253) 0%, rgb(91, 25, 255) 45%, rgba(143,10,231,1) 100%);
 	color: #fff;
 }
 
@@ -46,10 +46,23 @@ main {
 }
 
 .app header button {
-	color: #fff;
-	font-size: 18px;
-	border-bottom: 2px solid #fff;
-	text-transform: uppercase;
+	display: flex;
+    align-items: center;
+    background: linear-gradient(27deg, rgba(63,94,251,1) 0%, rgba(96,45,228,1) 45%, rgba(143,10,231,1) 100%);
+    color: #fff;
+    font-size: 20px;
+    outline: 0;
+    border-radius: 40px;
+    border-bottom: 2px solid rgb(91, 7, 146);
+    border-right: 2px solid rgb(91, 7, 146); 
+    padding: 15px 25px;
+    margin: 30px 0 20px;
+}
+
+.app header button:active{
+	 border-bottom: 2px solid rgb(71, 0, 71);
+	border-right: 2px solid rgb(39, 0, 90);
+	
 }
 
 .item {
