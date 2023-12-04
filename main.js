@@ -90,6 +90,11 @@ function CreateTodoElement(item) {
 		Save();
 	});
 
+	input_el.addEventListener("keyup", ()=>{
+		item.text = input_el.value;
+		Save();
+	})
+
 	edit_btn_el.addEventListener("click", () => {
 		input_el.removeAttribute("disabled");
 		input_el.focus();
