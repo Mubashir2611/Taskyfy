@@ -1,2 +1,2 @@
-# To-Do-App
-Make a To-Do list by (Html,Css,JavaScript)
+# Taskyfy 
+Storing lists of task and show it to the users.
